@@ -28,7 +28,7 @@ int main() {
 
     
 
-    printf("Lenguaje original L = { ");
+    printf("Lenguaje original L = { );
     for (int i = 0; i < n; i++) {
         printf(L[i]);
     }
