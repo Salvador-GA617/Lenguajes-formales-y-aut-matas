@@ -12,12 +12,12 @@ int main() {
     char estado = '0'; // Representamos q0 como '0'
 
     
-    printf("--- Tarea 3: MT Complemento Binario ---\n");
+    printf("MT Complemento Binario \n");
     printf("Introduce una cadena binaria ");
     scanf( cinta);
 
     printf("Iniciando simulacion...\n");
-    printf("Cinta inicial: %s\n", cinta);
+    printf("Cinta inicial: \n", cinta);
     printf("Estado: q%c, Cabezal en pos %d, Leyendo: %c\n", 
            estado, cabezal, cinta[cabezal]);
 
