@@ -18,16 +18,16 @@ int main() {
 
     printf("Iniciando simulacion...\n");
     printf("Cinta inicial: \n", cinta);
-    printf("Estado: q%c, Cabezal en pos %d, Leyendo: %c\n", 
+    printf("Estado: q, Cabezal en pos , Leyendo: \n", 
            estado, cabezal, cinta[cabezal]);
 
     while (estado != 'H') { // 'H' es el estado de Hal_ (parada)
         
         char simbolo_actual = cinta[cabezal];
         char simbolo_escrito = simbolo_actual;
-        char movimiento = 'D'; // 'D' = Derecha
+        char movimiento = 'D'; 
 
-        // Función de Transición
+        
         if (estado == '0' && simbolo_actual == '0') {
             simbolo_escrito = '1';
             estado = '0';
@@ -56,13 +56,13 @@ int main() {
         }
         
         if (estado != 'H') {
-             printf("Estado: q%c, Cabezal en pos %d, Leyendo: %c\n", 
-                    estado, cabezal, cinta[cabezal] ? cinta[cabezal] : 'B');
+             printf("Estado: q, Cabezal en pos %d, Leyendo: \n", 
+                    estado, cabezal, cinta[cabezal]  cinta[cabezal] : 'B');
         }
     }
 
     printf("Simulacion terminada.\n");
-    printf("Cadena complementada: %s\n\n", cinta);
+    printf("Cadena complementada: \n\n", cinta);
 
-    return 0; // Fin del programa
+    return 0; 
 }
