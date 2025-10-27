@@ -26,11 +26,7 @@ int main() {
     printf("Cadena original:   \n", cadena_orig);
     printf("Inversa de cadena: \n", cadena_inv);
 
-    
-    
-    char* L[] = {"01", "110", "1000", "0"};
-    
-    int n = sizeof(L) / sizeof(L[0]);
+    
 
     printf("Lenguaje original L = { ");
     for (int i = 0; i < n; i++) {
