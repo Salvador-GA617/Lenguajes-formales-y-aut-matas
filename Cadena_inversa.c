@@ -20,7 +20,7 @@ int main() {
 
     
     char cadena_orig[] = "10110";
-    char cadena_inv[50]; // Buffer para guardar el resultado
+    char cadena_inv[50];
 
     inversa_cadena(cadena_orig, cadena_inv);
     printf("Cadena original:   \n", cadena_orig);
