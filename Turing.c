@@ -9,7 +9,7 @@ int main() {
     int cabezal = 0;
     
     
-    char estado = '0'; // Representamos q0 como '0'
+    char estado = '0'; 
 
     
     printf("MT Complemento Binario \n");
@@ -21,7 +21,7 @@ int main() {
     printf("Estado: q, Cabezal en pos , Leyendo: \n", 
            estado, cabezal, cinta[cabezal]);
 
-    while (estado != 'H') { // 'H' es el estado de Hal_ (parada)
+    while (estado != 'H') { 
         
         char simbolo_actual = cinta[cabezal];
         char simbolo_escrito = simbolo_actual;
