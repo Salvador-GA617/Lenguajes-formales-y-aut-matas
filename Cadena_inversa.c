@@ -28,13 +28,13 @@ int main() {
 
     
 
-    printf("Lenguaje original L = { );
+    printf("Lenguaje original L = ");
     for (int i = 0; i < n; i++) {
         printf(L[i]);
     }
    
 
-    printf("Lenguaje inverso L^R = { ");
+    printf("Lenguaje inverso L^R =  ");
     for (int i = 0; i < n; i++) {
         char buffer_inverso[50];
         inversa_cadena(L[i], buffer_inverso);
